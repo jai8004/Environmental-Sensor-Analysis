@@ -74,7 +74,7 @@ conda install -c conda-forge fbprophet
 #### Install requirements.txt 
 ```bash
 
-pip isntall requirements.txt 
+pip install requirements.txt 
 
 ```
 
