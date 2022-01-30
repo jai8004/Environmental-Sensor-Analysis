@@ -1,7 +1,7 @@
 # Environmental Sensor Analysis 
+![image](https://drive.google.com/uc?export=view&id=1j-4koT1rmt90_68wrBs_C4IxtxWSqOmO)
 
-<a href="https://drive.google.com/uc?export=view&id=<1j-4koT1rmt90_68wrBs_C4IxtxWSqOmO>"><img src="https://drive.google.com/uc?export=view&id=<1j-4koT1rmt90_68wrBs_C4IxtxWSqOmO>" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
-![Dashboard](')
+![Dashboard](https://drive.google.com/file/d/1j-4koT1rmt90_68wrBs_C4IxtxWSqOmO/view?usp=sharing)
 
 1. The aim of the project was to forecast the future values of temperature, co2, humidity, LPG, and smoke so that farmers or clients could be prepared in advance with the precautionary measure to tackle any adverse environment which affects the production and growth of plants.
 
