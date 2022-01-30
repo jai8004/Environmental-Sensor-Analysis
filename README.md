@@ -1,18 +1,30 @@
 # Environmental Sensor Analysis 
+The aim of the project was to forecast the future values of temperature, co2, humidity, LPG, and smoke so that farmers or clients could be prepared in advance with the precautionary measure to tackle any adverse environment which affects the production and growth of plants.
+
+We created a machine learning solution using Fast API which helps to fetch the data from online MongoDB servers and feed it to the FBProphet model to give us the future forecast values which were displayed using the Dashboard created
+using Dash Framework.
+
+ We had the time-series data of the past 3 months which was preprocessed and
+resampled by minutes and we use the Arima model at first but due to low
+accuracy, we decided to go with the Prophet model which gave us an accuracy of
+73.5%.
+
+
 
 #### Dataset Link 
 https://drive.google.com/drive/folders/113363mwdWNxWQWD9pWv2OxMwilKiSU_q
 
-### Create Conda Environment
+
+
+## How to run the Project
+### First Approach
+
+
+###### Create conda environment 
 
 This command will use the yam file to install all dependices which are 
 installed using pip and conda package and it uses python version 3.7.10
 
-
-## First Approach
-
-
-###### Create conda environment 
 ```bash 
 conda env create --file=requirements.yml
 ```
@@ -22,7 +34,7 @@ conda activate esa
 ```
 <hr>
 
-##Second Approach
+### Second Approach
 
 ###### Create conda environment 
 ```bash 
@@ -76,9 +88,9 @@ Once your environment is ready.
 python main.py
 
 ```
-####Now open url : http://127.0.0.1:8000/docs
+#### Now open url : http://127.0.0.1:8000/docs
 
-###API Info :
+### API Info :
 `
 Run ETL API 
 `
@@ -100,7 +112,7 @@ python app.py
 ```
 <hr>
 
-##Project Documentation  :
+## Project Documentation  :
 
 The project documentation contains all the modules and method info in web format.The documentation can be accessed from :
 
